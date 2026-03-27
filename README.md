@@ -14,15 +14,21 @@ Your personal AI training coach. Connect Garmin, ask anything about your trainin
 ## What you need
 
 - **Python 3.12** (not 3.14 — pip has issues on 3.14)
-- **Claude Code** ([claude.ai/code](https://claude.ai/code))
+- **AI coding assistant** — any of these:
+  - [Claude Code](https://claude.ai/code)
+  - [OpenAI Codex](https://openai.com/codex)
+  - [Cursor](https://cursor.com)
+  - Any AI tool that reads project instructions from markdown
 
 ## Setup — 3 steps
 
 1. **Clone this repo**
-2. **Open the folder in Claude Code**
+2. **Open the folder in your AI coding assistant**
 3. **Type: "Set me up"**
 
-Claude will do everything else — install dependencies, connect your Garmin account, download data, analyze your training, and estimate your zones.
+The AI will do everything else — install dependencies, connect your Garmin account, download data, analyze your training, and estimate your zones.
+
+Works with Claude Code (`CLAUDE.md`), OpenAI Codex (`AGENTS.md`), and any tool that reads project-level instructions.
 
 ## What you can ask
 
@@ -45,7 +51,7 @@ Works with any Garmin watch. Extra insights if you have:
 
 ## Sample data
 
-Want to try it without connecting Garmin? Copy `sample_data/` contents to `data/` and ask Claude to analyze it.
+Want to try it without connecting Garmin? Copy `sample_data/` contents to `data/` and ask your AI to analyze it.
 
 ## License
 
