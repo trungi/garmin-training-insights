@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (local only, never commit)
+data/
+*.db
+*.sqlite
+*.fit
+*.gpx
+*.tcx
+
+# Analysis outputs (optional - remove if you want to commit reports)
+analysis-reports/
+*.log
+
+# Secrets & API keys
+.env
+.env.local
+.env.production
+credentials.json
+auth_config.json
+
+# Garmin specific
+garmin_session_*
+*.cookies
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_backup
+
+# Temporary files
+tmp/
+temp/
+*.tmp
